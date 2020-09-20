@@ -4,4 +4,15 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.APIGateway" Version="3.5.1.1" />
+    <PackageReference Include="AWSSDK.Lambda" Version="3.5.0.17" />
+    <PackageReference Include="AWSSDK.Route53" Version="3.5.0.17" />
+    <PackageReference Include="AWSSDK.SQS" Version="3.5.0.17" />
+  </ItemGroup>
+
 </Project>
